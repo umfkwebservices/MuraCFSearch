@@ -1,0 +1,214 @@
+/*
+
+This file is part of MuraCFSearch
+
+Copyright 2021 University of Maine at Fort Kent
+Licensed under the Apache License, Version v2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+*/
+
+/* basic styles for search box */
+#svSearchAgain .ui-widget, #svSearchAgain .ui-widget .ui-widget {
+	font-size: 1em;
+}
+#svSearchAgain .ui-widget-header {
+	background-color: #393939;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 6px 6px 0 0;
+	border: transparent;
+	margin: -1px -1px 0;
+	padding: 1em;
+}
+#svSearchAgain .ui-widget-header label, #svSearchAgain .ui-widget-header a {
+	padding: 0;
+	margin: 0;
+}
+#svSearchAgain .ui-widget-header a {
+	color: #fff;
+}
+#svSearchAgain .ui-widget p {
+	margin: 1em 0;
+}
+#svSearchAgain .ui-tabs {
+	position: relative;
+}
+#svSearchAgain .ui-dialog-content {
+	background: #fff;
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-top: none;
+	border-radius: 0 0 6px 6px;
+	margin: -1px;
+}
+#svSearchAgain .ui-dialog-content, #svSearchAgain .ui-widget-content {
+	color: #000;
+}
+#svSearchAgain .ui-corner-all {
+	border-radius: 6px;
+}
+#svSearchAgain .ui-dialog .ui-dialog-content {
+	position: relative;
+}
+#svSearchAgain fieldset > legend {
+	font-size: 1em;
+	font-weight: 700;
+}
+
+/* styles for search results */
+#siteSearchResults .loading {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-height: 4em;
+	background: rgba(255, 255, 255, .8);
+	z-index: 10;
+	text-align: center;
+	padding: 2em;
+}
+#siteSearchResults .hideloader {
+	display: none;
+}
+.topLine {
+	border-top: #dfdfdf solid 1px
+}
+.bottomLine, hr {
+	border-bottom: #dfdfdf solid 1px
+}
+
+/* pagination styles */
+.pagination {
+	display: inline-block;
+	padding-left: 0;
+	border-radius: 4px;
+	margin: 24px 0 18px;
+}
+.pagination > li {
+	display: inline;
+}
+.pagination > li > a, .pagination > li > span {
+	position: relative;
+	float: left;
+	text-decoration: none !important;
+	padding: 0 14px;
+	margin-left: -1px;
+	line-height: 1.42857143;
+	background-color: #fff;
+	color: #393939;
+	border: 1px solid #ddd;
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+	margin-left: 0;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover {
+	background-color: #eee;
+	border-color: #ddd;
+}
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+	z-index: 2;
+	color: #fff;
+	cursor: default;
+	background-color: #393939;
+	border-color: #393939;
+}
+.pagination .na a:active, .pagination .na a:link, .pagination .na a:visited, .pagination > .disabled > a, .pagination > .disabled > a:focus, .pagination > .disabled > a:hover, .pagination > .disabled > span, .pagination > .disabled > span:focus, .pagination > .disabled > span:hover {
+	color: #c3c3c3;
+	cursor: default;
+	background-color: #fff;
+	border-color: #ddd;
+}
+.pagination .active a:hover {
+	color: #fff;
+}
+
+/* general content styles */
+.graytext {
+	color: #939393;
+}
+.margin-topsm {
+	margin-top: .1em;
+}
+.margin-bottomsm {
+	margin-bottom: .1em;
+}
+.margin-rightsm {
+	margin-right: .1em;
+}
+.margin-leftsm {
+	margin-left: .1em;
+}
+.margin-topsm2 {
+	margin-top: .2em;
+}
+.margin-bottomsm2 {
+	margin-bottom: .2em;
+}
+.margin-rightsm2 {
+	margin-right: .2em;
+}
+.margin-leftsm2 {
+	margin-left: .2em;
+}
+.margin-topmed {
+	margin-top: .5em;
+}
+.margin-bottommed {
+	margin-bottom: .5em;
+}
+.margin-rightmed {
+	margin-right: .5em;
+}
+.margin-leftmed {
+	margin-left: .5em;
+}
+.margin-top {
+	margin-top: 1em;
+}
+.margin-bottom {
+	margin-bottom: 1em;
+}
+.margin-left {
+	margin-left: 1em;
+}
+.margin-right {
+	margin-right: 1em;
+}
+.margin-toplg {
+	margin-top: 1.5em;
+}
+.margin-bottomlg {
+	margin-bottom: 1.5em;
+}
+.margin-leftlg {
+	margin-left: 1.5em;
+}
+.margin-rightlg {
+	margin-right: 1.5em;
+}
+.margin-topxl {
+	margin-top: 2em;
+}
+.margin-bottomxl {
+	margin-bottom: 2em;
+}
+.margin-leftxl {
+	margin-left: 2em;
+}
+.margin-rightxl {
+	margin-right: 2em;
+}
+.center {
+	text-align: center;
+}
+.small {
+	font-size: 85%;
+}
